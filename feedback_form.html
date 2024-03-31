@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="block">
+        <h1 id="title">Older Adults Liaison Psychiatry service - questionnaire for referrers</h1>
+        <p id="description">We are trying to improve the Older Adults Liaison Psychiatry service. Your response would be very helpful and should only take a few minutes. The form is anonymous. Thank you!</p>
+    </div>
+    <form id = "survey-form"> <!-- Specify action attribute for form submission -->
+        <label for="role"><strong>1. </strong>What is your role? (e.g. doctor, PA etc.)</label>
+        <input id="role" type="text" name="role" required placeholder="Enter your role">
+
+        <label for="grade"><strong>2. </strong>What is your grade (if applicable)? (e.g. FY1, SpR etc.)</label>
+        <input id="grade" type="text" name="grade" required placeholder="Enter your grade">
+        
+        <label for="role-team"><strong>3. </strong>How confident do you feel in your understanding of the role of the Older Adults Liaison Psychiatry team and the help they can provide?<br>(1 = least confident, 10 = most confident)</label>
+        <select id="role-team" name="role-team" required>
+            <option value="">(select a number)</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <label for="delirium"><strong>4. </strong>How confident do you feel in managing a patient with delirium?<br>(1 = least confident, 1 = most confident)</label>
+        <select id="delirium" name="delirium" required>
+            <option value="" disabled selected>(select a number)</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <label for="mood"><strong>5. </strong>How confident do you feel in managing a patient with low mood?<br>(1 = least confident, 1 = most confident)</label>
+        <select id="mood" name="mood" required>
+            <option value="" disabled selected>(select a number)</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <label for="cognitive-impairment"><strong>6. </strong>How confident do you feel in managing a patient with cognitive impairment?<br>(1 = least confident, 1 = most confident)</label>
+        <select id="cognitive-impairment" name="cognitive-impairment" required>
+            <option value="" disabled selected>(select a number)</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <legend><strong>7. </strong>Do you know how to refer to the Older Adults Psychiatry Liaison team?</legend>
+        <label for="refer-yes"><input id="refer-yes" type="radio" name="refer" class="inline">Yes</label>
+        <label for="refer-no"><input id="refer-no" type="radio" name="refer" class="inline">No</label>
+
+        <legend><strong>8. </strong>Did you know that we have a telephone line for advice?</legend>
+        <label for="phone-yes"><input id="phone-yes" type="radio" name="phone" class="inline">Yes</label>
+        <label for="phone-no"><input id="phone-no" type="radio" name="phone" class="inline">No</label>
+
+        <label for="comments"><strong>9. </strong>Any further comments?</label>
+        <textarea id="comments" name="comments" rows="4" cols="60" placeholder="Type in your comments here"></textarea>
+        
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
+
+
