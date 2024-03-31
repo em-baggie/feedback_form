@@ -1,1 +1,1 @@
-This is a feedback form I made in HTML/CSS to use for a QI project at work.
+This is a short questionnaire I made in HTML/CSS to use for a QI project at work.
