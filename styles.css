@@ -48,7 +48,7 @@ input[type="submit"] {
     min-width: 300px;
 }
 
-.block {
+header {
     background-color: #066b6b;
     color: white;
     padding: 28px;
